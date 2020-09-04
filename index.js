@@ -13,7 +13,8 @@ async function main() {
         'reconnect': true,
         'reconnection delay': 500 + Math.random()*1000,
         'reopen delay': 500 + Math.random()*1000,
-        'max reconnection attempts': Number.MAX_SAFE_INTEGER
+        'max reconnection attempts': Number.MAX_SAFE_INTEGER,
+        'transports': ['websocket']
     });
 
     async function insert(collection, doc) {
