@@ -6,7 +6,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "mongodb": "^3.6.1",
+    "mongodb": "^3.6.4",
     "socket.io-client": "^0.9.17"
   }
 }
